@@ -14,13 +14,21 @@ io.on('connection', function(socket){
     console.log('a user connected');
 
     socket.on('chat message', function(msg){
-        console.log('message: ' + msg);
+        //console.log('message: ' + msg);
+        //all but a certain socket
+        //socket.broadcast.emit('hi');
+        io.emit('chat message', msg);
     });
 
     socket.on('disconnect', function(){
         console.log('user disconnected');
     });
+
+    
+    
 });
+
+// io.emit('some event', { for: 'everyone' });
 
 http.listen(3000, function(){
     console.log('listening on *:3000');
