@@ -1,3 +1,8 @@
+#Socket.io Chat Application
+
+1. npm install
+2. npm start in the command line
+
 Todo
 - Broadcast a message to connected users when someone connects or disconnects
 - Add support for nicknames
@@ -6,4 +11,9 @@ Todo
 - Show who’s online
 - Add private messaging
 - Share your improvements!
+
+- https://socket.io/
+- https://socket.io/docs/server-api/
+- https://socket.io/docs/client-api/
 - https://github.com/socketio/chat-example.git
+
