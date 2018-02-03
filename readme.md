@@ -17,3 +17,7 @@ Todo
 - https://socket.io/docs/client-api/
 - https://github.com/socketio/chat-example.git
 
+##Heroku Deployment
+1. heroku git:remote -a digitalconduct-chat
+2. git commit -am "message"
+3. git push heroku master
