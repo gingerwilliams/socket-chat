@@ -21,3 +21,5 @@ Todo
 1. heroku git:remote -a digitalconduct-chat
 2. git commit -am "message"
 3. git push heroku master
+
+- if errors: heroku logs --tail
